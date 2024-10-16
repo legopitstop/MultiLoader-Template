@@ -1,4 +1,4 @@
-package com.example.examplemod.platform.services;
+package dev.lpsmods.examplemod.platform.services;
 
 public interface IPlatformHelper {
 

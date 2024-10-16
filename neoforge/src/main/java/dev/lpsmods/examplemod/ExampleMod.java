@@ -1,4 +1,4 @@
-package com.example.examplemod;
+package dev.lpsmods.examplemod;
 
 
 import net.neoforged.bus.api.IEventBus;

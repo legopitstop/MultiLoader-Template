@@ -1,6 +1,6 @@
-package com.example.examplemod.mixin;
+package dev.lpsmods.examplemod.mixin;
 
-import com.example.examplemod.Constants;
+import dev.lpsmods.examplemod.Constants;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.screens.TitleScreen;
 import org.spongepowered.asm.mixin.Mixin;
