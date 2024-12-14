@@ -7,7 +7,7 @@ Lot's More Blocks!
 | Key       | Value         |
 | --------- |---------------|
 | namespace | `moreblocks`  |
-| slug      | `more-blcoks` |
+| slug      | `more-blocks` |
 
 ## Editions
 
