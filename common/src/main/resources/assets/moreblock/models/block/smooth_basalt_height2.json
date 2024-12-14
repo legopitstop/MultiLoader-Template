@@ -1,0 +1,6 @@
+{
+    "parent": "moreblock:block/layer_all_height2",
+    "textures": {
+        "all": "minecraft:block/smooth_basalt"
+    }
+}

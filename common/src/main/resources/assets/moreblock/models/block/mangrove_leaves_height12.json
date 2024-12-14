@@ -1,0 +1,6 @@
+{
+    "parent": "moreblock:block/layer_leaves_height12",
+    "textures": {
+        "all": "minecraft:block/mangrove_leaves"
+    }
+}

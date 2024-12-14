@@ -1,0 +1,6 @@
+{
+    "parent": "moreblock:block/layer_leaves_height2",
+    "textures": {
+        "all": "minecraft:block/jungle_leaves"
+    }
+}

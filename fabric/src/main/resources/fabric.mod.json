@@ -9,28 +9,21 @@
     ],
     "contact": {
         "homepage": "https://lpsmods.dev/",
-        "sources": "https://github.com/legopitstop/examplemod"
+        "sources": "https://github.com/lpsmods/more-blocks"
     },
     "license": "${license}",
-    "icon": "${mod_id}.png",
+    "icon": "assets/${mod_id}/icon.png",
     "environment": "*",
     "entrypoints": {
         "main": [
-            "dev.lpsmods.examplemod.ExampleMod"
+          "dev.lpsmods.moreblocks.MoreBlocks"
         ]
     },
-    "mixins": [
-        "${mod_id}.mixins.json",
-        "${mod_id}.fabric.mixins.json"
-    ],
     "depends": {
         "fabricloader": ">=${fabric_loader_version}",
         "fabric-api": "*",
         "minecraft": "${minecraft_version}",
         "java": ">=${java_version}"
-    },
-    "suggests": {
-        "another-mod": "*"
     }
 }
   
