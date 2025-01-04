@@ -1,0 +1,9 @@
+{
+  "format_version": [1, 16, 1],
+  "mod_id:custom_rotatable": {
+    "sound": "stone"
+  },
+  "mod_id:custom": {
+    "sound": "stone"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "format_version": "1.21.10",
+  "minecraft:block": {
+    "description": {
+      "identifier": "mod_id:custom_rotatable",
+      "menu_category": {
+        "category": "construction"
+      },
+      "traits": {
+        "minecraft:placement_direction": {
+          "enabled_states": ["minecraft:cardinal_direction"],
+          "y_rotation_offset": 0
+        }
+      }
+    },
+    "components": {
+      "minecraft:loot": "loot_tables/blocks/custom_rotatable.json",
+      "minecraft:light_dampening": 0,
+      "minecraft:custom_components": ["mod_id:block"],
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 1
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 1
+      },
+      "minecraft:geometry": "minecraft:geometry.full_block",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "mod_id:custom",
+          "render_method": "blend"
+        },
+        "north": {
+          "texture": "stone",
+          "render_method": "opaque"
+        }
+      },
+      "minecraft:collision_box": {
+        "origin": [-8, 0, -8],
+        "size": [16, 16, 16]
+      },
+      "minecraft:selection_box": {
+        "origin": [-8, 0, -8],
+        "size": [16, 16, 16]
+      }
+    },
+    "permutations": [
+      {
+        "condition": "query.block_state('direction') == 'up'",
+        "components": {
+          "minecraft:transformation": { "rotation": [-90, 90, 0] }
+        }
+      },
+      {
+        "condition": "query.block_state('direction') == 'down'",
+        "components": {
+          "minecraft:transformation": { "rotation": [90, 90, 0] }
+        }
+      },
+      {
+        "condition": "query.block_state('direction') == 'north'",
+        "components": {
+          "minecraft:transformation": { "rotation": [0, 0, 0] }
+        }
+      },
+      {
+        "condition": "query.block_state('direction') == 'south'",
+        "components": {
+          "minecraft:transformation": { "rotation": [0, 180, 0] }
+        }
+      },
+      {
+        "condition": "query.block_state('direction') == 'east'",
+        "components": {
+          "minecraft:transformation": { "rotation": [0, 90, 0] }
+        }
+      },
+      {
+        "condition": "query.block_state('direction') == 'west'",
+        "components": {
+          "minecraft:transformation": { "rotation": [0, -90, 0] }
+        }
+      }
+    ]
+  }
+}

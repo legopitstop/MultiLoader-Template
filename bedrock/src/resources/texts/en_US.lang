@@ -1,0 +1,9 @@
+﻿pack.name=name RP
+pack.description=§av1.0.0§r - desc! §8Developer: §6Legopitstop
+
+tile.mod_id:custom.name=Block
+tile.mod_id:custom_rotatable.name=Rotatable
+
+item.mod_id:custom=Item
+item.mod_id:custom_food=Food
+item.mod_id:custom_tool=Tool
