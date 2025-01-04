@@ -1,0 +1,7 @@
+{
+  "item.mod_id.custom": "Custom Item",
+  "item.mod_id.custom.desc": "Description about this item",
+  "block.mod_id.custom": "Custom Block",
+  "entity.mod_id.custom": "Custom Entity",
+  "item.mod_id": "mod_id"
+}

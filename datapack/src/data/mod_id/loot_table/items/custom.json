@@ -1,0 +1,31 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{id:\"mod_id:custom\"}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "item_name": "{\"translate\":\"item.mod_id.custom\"}",
+                "item_model": "mod_id:custom",
+                "lore": [
+                  "{\"translate\":\"item.mod_id.custom.desc\",\"color\":\"gray\",\"italic\":false}",
+                  "{\"translate\":\"item.mod_id\",\"color\":\"blue\"}"
+                ],
+                "unbreakable": { "show_in_tooltip": false }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

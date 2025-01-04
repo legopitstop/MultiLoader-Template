@@ -1,0 +1,20 @@
+{
+  "display": {
+    "title": "title",
+    "description": "description",
+    "icon": {
+      "id": "minecraft:paper",
+      "components": {
+        "item_model": "mod_id:custom"
+      }
+    },
+    "announce_to_chat": false,
+    "show_toast": false
+  },
+  "parent": "global:lps",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

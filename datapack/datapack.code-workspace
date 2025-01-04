@@ -1,15 +1,8 @@
 {
   "folders": [
     {
-      "path": "./datapack"
-    },
-    {
-      "path": "./resourcepack"
+      "path": "."
     }
   ],
-  "settings": {
-    "files.associations": {
-      "*.json": "jsonc"
-    }
-  }
+  "settings": {}
 }
