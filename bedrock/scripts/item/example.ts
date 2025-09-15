@@ -24,17 +24,35 @@ export class ItemComponent {
 
   // EVENTS
 
-  onBeforeDurabilityDamage(event: ItemComponentBeforeDurabilityDamageEvent, args: CustomComponentParameters): void {}
+  onBeforeDurabilityDamage(
+    event: ItemComponentBeforeDurabilityDamageEvent,
+    args: CustomComponentParameters,
+  ): void {}
 
-  onCompleteUse(event: ItemCompleteUseEvent, args: CustomComponentParameters): void {}
+  onCompleteUse(
+    event: ItemCompleteUseEvent,
+    args: CustomComponentParameters,
+  ): void {}
 
-  onConsume(event: ItemComponentConsumeEvent, args: CustomComponentParameters): void {}
+  onConsume(
+    event: ItemComponentConsumeEvent,
+    args: CustomComponentParameters,
+  ): void {}
 
-  onHitEntity(event: ItemComponentHitEntityEvent, args: CustomComponentParameters): void {}
+  onHitEntity(
+    event: ItemComponentHitEntityEvent,
+    args: CustomComponentParameters,
+  ): void {}
 
-  onMineBlock(event: ItemComponentMineBlockEvent, args: CustomComponentParameters): void {}
+  onMineBlock(
+    event: ItemComponentMineBlockEvent,
+    args: CustomComponentParameters,
+  ): void {}
 
   onUse(event: ItemComponentUseEvent, args: CustomComponentParameters): void {}
 
-  onUseOn(event: ItemComponentUseOnEvent, args: CustomComponentParameters): void {}
+  onUseOn(
+    event: ItemComponentUseOnEvent,
+    args: CustomComponentParameters,
+  ): void {}
 }

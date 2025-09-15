@@ -1,11 +1,11 @@
 {
-  "format_version": "1.21.10",
+  "format_version": "1.21.100",
   "minecraft:item": {
     "description": {
-      "identifier": "mod_id:custom_tool",
+      "identifier": "lpsm_mod_id:custom_tool",
       "menu_category": {
         "category": "equipment",
-        "group": "itemGroup.name.pickaxe"
+        "group": "minecraft:itemGroup.name.pickaxe"
       }
     },
     "components": {
@@ -28,7 +28,7 @@
           { "items": ["minecraft:cobblestone"], "repair_amount": 1 }
         ]
       },
-      "minecraft:icon": "mod_id:custom"
+      "minecraft:icon": "lpsm_mod_id:custom"
     }
   }
 }

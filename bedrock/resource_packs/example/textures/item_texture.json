@@ -2,8 +2,11 @@
   "resource_pack_name": "vanilla",
   "texture_name": "atlas.items",
   "texture_data": {
-    "mod_id:custom": {
-      "textures": "textures/items/custom.png"
+    "lpsm_mod_id:custom": {
+      "textures": "textures/lpsm/mod_id/items/custom.png"
+    },
+    "lpsm_mod_id:guide_book": {
+      "textures": "textures/lpsm/mod_id/items/custom.png"
     }
   }
 }

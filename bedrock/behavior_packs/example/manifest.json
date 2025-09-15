@@ -5,7 +5,8 @@
     "name": "pack.name",
     "uuid": "UUID3",
     "version": [1, 0, 0],
-    "min_engine_version": [1, 21, 100]
+    "min_engine_version": [1, 21, 100],
+    "pack_scope": "world"
   },
   "metadata": {
     "authors": ["legopitstop"],

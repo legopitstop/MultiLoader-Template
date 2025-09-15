@@ -1,9 +1,15 @@
-﻿pack.name=name RP
+﻿pack.name=name Add-On
 pack.description=§av1.0.0§r - desc! §8Developer: §6Legopitstop
 
-tile.mod_id:custom.name=Block
-tile.mod_id:custom_rotatable.name=Rotatable
+tile.lpsm_mod_id:custom.name=Block
+tile.lpsm_mod_id:custom_rotatable.name=Rotatable
 
-item.mod_id:custom=Item
-item.mod_id:custom_food=Food
-item.mod_id:custom_tool=Tool
+item.lpsm_mod_id:custom=Item
+item.lpsm_mod_id:custom_food=Food
+item.lpsm_mod_id:custom_tool=Tool
+item.lpsm_mod_id:guide_book=Guide Book\n§aname Add-On§r
+
+guide.lpsm_mod_id:title=name Guide Book
+guide.lpsm_mod_id:desc=desc
+guide.lpsm_mod_id:changelogs.v100=v100
+guide.lpsm_mod_id:changelogs.v100.desc=- Initial release.

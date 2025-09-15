@@ -2,10 +2,10 @@
   "format_version": "1.8.0",
   "minecraft:client_entity": {
     "description": {
-      "identifier": "mod_id:static",
+      "identifier": "lpsm_mod_id:static",
       "materials": { "default": "entity_alphatest" },
-      "textures": { "default": "textures/entity/custom" },
-      "geometry": { "default": "geometry.custom" },
+      "textures": { "default": "textures/lpsm/mod_id/entity/custom" },
+      "geometry": { "default": "geometry.lpsm_mod_id_custom" },
       "render_controllers": ["controller.render.default"]
     }
   }

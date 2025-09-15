@@ -1,16 +1,16 @@
 {
-  "format_version": "1.21.10",
+  "format_version": "1.21.100",
   "minecraft:item": {
     "description": {
-      "identifier": "mod_id:custom",
+      "identifier": "lpsm_mod_id:custom",
       "menu_category": {
         "category": "items"
       }
     },
     "components": {
       "minecraft:max_stack_size": 64,
-      "minecraft:icon": "mod_id:custom",
-      "minecraft:custom_components": ["mod_id:item"]
+      "minecraft:icon": "lpsm_mod_id:custom",
+      "lpsm_mod_id:item": {}
     }
   }
 }

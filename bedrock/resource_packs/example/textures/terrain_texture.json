@@ -4,8 +4,8 @@
   "padding": 8,
   "num_mip_levels": 4,
   "texture_data": {
-    "mod_id:custom": {
-      "textures": ["textures/blocks/custom.png"]
+    "lpsm_mod_id:custom": {
+      "textures": ["textures/lpsm/mod_id/blocks/custom.png"]
     }
   }
 }

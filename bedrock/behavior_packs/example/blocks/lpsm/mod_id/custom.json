@@ -1,18 +1,17 @@
 {
-  "format_version": "1.21.10",
+  "format_version": "1.21.100",
   "minecraft:block": {
     "description": {
-      "identifier": "mod_id:custom",
+      "identifier": "lpsm_mod_id:custom",
       "menu_category": {
         "category": "construction"
       }
     },
     "components": {
-      "minecraft:loot": "loot_tables/blocks/custom.json",
+      "minecraft:loot": "loot_tables/lpsm/mod_id/blocks/custom.json",
       "minecraft:map_color": "#000000",
       "minecraft:geometry": "minecraft:geometry.full_block",
       "minecraft:friction": 0.1,
-      "minecraft:custom_components": ["mod_id:block"],
       "minecraft:destructible_by_mining": {
         "seconds_to_destroy": 1
       },
@@ -21,14 +20,15 @@
       },
       "minecraft:material_instances": {
         "*": {
-          "texture": "mod_id:custom",
+          "texture": "lpsm_mod_id:custom",
           "render_method": "alpha_test"
         }
       },
       "minecraft:placement_filter": {
         "allowed_faces": ["all"],
         "block_filter": []
-      }
+      },
+      "lpsm_mod_id:block": {}
     }
   }
 }

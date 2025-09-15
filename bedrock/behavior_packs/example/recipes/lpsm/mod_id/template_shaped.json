@@ -2,7 +2,7 @@
   "format_version": "1.20",
   "minecraft:recipe_shaped": {
     "description": {
-      "identifier": "mod_id:template_shaped"
+      "identifier": "lpsm_mod_id:template_shaped"
     },
     "tags": ["crafting_table"],
     "pattern": ["AAA", "BEB", "CCC"],

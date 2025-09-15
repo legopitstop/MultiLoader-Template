@@ -1,12 +1,13 @@
 {
   "folders": [
     {
-      "path": "."
-    }
+      "name": "name Add-On",
+      "path": ".",
+    },
   ],
   "settings": {
     "files.associations": {
-      "*.json": "jsonc"
-    }
-  }
+      "*.json": "jsonc",
+    },
+  },
 }

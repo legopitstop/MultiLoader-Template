@@ -28,21 +28,48 @@ export class BlockComponent {
 
   // EVENTS
 
-  beforeOnPlayerPlace(event: BlockComponentPlayerPlaceBeforeEvent, args: CustomComponentParameters): void {}
+  beforeOnPlayerPlace(
+    event: BlockComponentPlayerPlaceBeforeEvent,
+    args: CustomComponentParameters,
+  ): void {}
 
-  onEntityFallOn(event: BlockComponentEntityFallOnEvent, args: CustomComponentParameters): void {}
+  onEntityFallOn(
+    event: BlockComponentEntityFallOnEvent,
+    args: CustomComponentParameters,
+  ): void {}
 
-  onPlace(event: BlockComponentOnPlaceEvent, args: CustomComponentParameters): void {}
+  onPlace(
+    event: BlockComponentOnPlaceEvent,
+    args: CustomComponentParameters,
+  ): void {}
 
-  onPlayerBreak(event: BlockComponentPlayerBreakEvent, args: CustomComponentParameters): void {}
+  onPlayerBreak(
+    event: BlockComponentPlayerBreakEvent,
+    args: CustomComponentParameters,
+  ): void {}
 
-  onPlayerInteract(event: BlockComponentPlayerInteractEvent, args: CustomComponentParameters): void {}
+  onPlayerInteract(
+    event: BlockComponentPlayerInteractEvent,
+    args: CustomComponentParameters,
+  ): void {}
 
-  onRandomTick(event: BlockComponentRandomTickEvent, args: CustomComponentParameters): void {}
+  onRandomTick(
+    event: BlockComponentRandomTickEvent,
+    args: CustomComponentParameters,
+  ): void {}
 
-  onStepOff(event: BlockComponentStepOffEvent, args: CustomComponentParameters): void {}
+  onStepOff(
+    event: BlockComponentStepOffEvent,
+    args: CustomComponentParameters,
+  ): void {}
 
-  onStepOn(event: BlockComponentStepOnEvent, args: CustomComponentParameters): void {}
+  onStepOn(
+    event: BlockComponentStepOnEvent,
+    args: CustomComponentParameters,
+  ): void {}
 
-  onTick(event: BlockComponentTickEvent, args: CustomComponentParameters): void {}
+  onTick(
+    event: BlockComponentTickEvent,
+    args: CustomComponentParameters,
+  ): void {}
 }

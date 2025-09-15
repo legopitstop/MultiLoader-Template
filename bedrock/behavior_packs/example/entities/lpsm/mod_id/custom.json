@@ -2,13 +2,13 @@
   "format_version": "1.20.50",
   "minecraft:entity": {
     "description": {
-      "identifier": "mod_id:custom",
+      "identifier": "lpsm_mod_id:custom",
       "is_spawnable": false,
       "is_summonable": true,
       "is_experimental": false
     },
     "component_groups": {
-      "mod_id:despawn": { "minecraft:instant_despawn": {} }
+      "despawn": { "minecraft:instant_despawn": {} }
     },
     "components": {
       "minecraft:fire_immune": {},
@@ -20,7 +20,7 @@
       "minecraft:physics": { "has_gravity": false, "has_collision": false }
     },
     "events": {
-      "mod_id:despawn": { "add": { "component_groups": ["mod_id:despawn"] } }
+      "despawn": { "add": { "component_groups": ["despawn"] } }
     }
   }
 }

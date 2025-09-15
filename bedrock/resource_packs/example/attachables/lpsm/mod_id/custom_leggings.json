@@ -2,27 +2,27 @@
   "format_version": "1.10.0",
   "minecraft:attachable": {
     "description": {
-      "identifier": "mod_id:custom_chestplate.player",
+      "identifier": "lpsm_mod_id:custom_leggings.player",
       "item": {
-        "mod_id:custom_chestplate": "q.is_owner_identifier_any('minecraft:player')"
+        "lpsm_mod_id:custom_leggings": "q.is_owner_identifier_any('minecraft:player')"
       },
       "materials": {
         "default": "armor",
         "enchanted": "armor_enchanted"
       },
       "textures": {
-        "default": "textures/models/armor/custom_1",
+        "default": "textures/lpsm/mod_id/models/armor/custom_2",
         "enchanted": "textures/misc/enchanted_item_glint"
       },
       "geometry": {
-        "default": "geometry.player.armor.chestplate"
+        "default": "geometry.player.armor.leggings"
       },
       "scripts": {
-        "parent_setup": "variable.chest_layer_visible = 0.0;",
+        "parent_setup": "variable.leg_layer_visible = 0.0;",
         "animate": ["offset"]
       },
       "animations": {
-        "offset": "animation.armor.chestplate.offset"
+        "offset": "animation.armor.leggings.offset"
       },
       "render_controllers": ["controller.render.armor"]
     }
